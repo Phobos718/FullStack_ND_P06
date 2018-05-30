@@ -5,6 +5,7 @@
   - ssh port : 2200
   - download the key file (udacityGrader) from this repository
   - connect with : ssh grader@35.178.140.208 -p 2200 -i udacityGrader
+  - (use the following passphrase: grader123 )
   
   
 ## The web application URL
