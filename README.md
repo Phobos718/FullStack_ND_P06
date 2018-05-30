@@ -1,16 +1,17 @@
 # FullStack Nanodegree Project 6 - Linux Server Configuration
 
-SSH access:
+## SSH access:
   - IP : 35.178.140.208
   - ssh port : 2200
   - download the key file (udacityGrader) from this repository
   - connect with : ssh grader@35.178.140.208 -p 2200 -i udacityGrader
   
   
-The web application can be accessed on: http://35.178.140.208/
+## The web application URL
+http://35.178.140.208/
 
 
-Additional software installed:
+## Additional software installed:
   - Apache2
   - PostgreSQL
   - Python 2
@@ -23,10 +24,12 @@ Additional software installed:
     - oauth2client
 
 
-Configuration changes made:
+## Configuration changes made:
   - updated and upgraded all packages
   - added user grader and provided sudo access in sudoers.d
-  - Disabled root login in sshd_config
+  - Disabled remote root login in sshd_config
+  - Disabled password-based login
+  - RSA key auth enabled
   - Changed the SSH port to 2200 in sshd_config
   - Configured UFW firewall to allow ports 
     - 123 (NTP)
@@ -38,7 +41,7 @@ Configuration changes made:
     - Apache2 server
   
   
-A list of any third-party resources made use of to complete this project:
+## List of any third-party resources made use of to complete this project:
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04
 https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-14-04
