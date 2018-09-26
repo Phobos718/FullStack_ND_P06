@@ -9,7 +9,7 @@
   
   
 ## The web application URL
-http://35.178.140.208/
+~~http://35.178.140.208/~~
 
 
 ## Additional software installed:
